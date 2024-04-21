@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# Store with Vite + React + TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a simple e-commerce store built using Vite, React, and TypeScript. It consumes data from the FakeStore API to display products 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+1. Clone the repository:
+```
+git clone https://github.com/seu-usuario/sua-loja.git
+```
+2. Navigate to the project directory:
+```
+cd glamour
+```
+3. Install dependencies:
+```
+npm i
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Usage
+
+1. Start the development server:
+```
+npm run dev
+```
+2. Open your browser and visit `http://localhost:5173` to view the application.
+
+## Features
+
+- Displaying products from the FakeStore API
+
+## Future implementations 
+
+- Adding products to the shopping cart
+- Removing products from the shopping cart
+- Updating quantities in the shopping cart
