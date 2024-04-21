@@ -12,7 +12,7 @@ git clone https://github.com/seu-usuario/sua-loja.git
 ```
 2. Navigate to the project directory:
 ```
-cd glamour
+cd glamour-webstore
 ```
 3. Install dependencies:
 ```
