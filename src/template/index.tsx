@@ -22,7 +22,7 @@ const Template = ({children, stripActive}: TemplateProps) => {
                 </a>
             </footer>
         </>
-    )
-}
+    );
+};
 
 export default Template;
