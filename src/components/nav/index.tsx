@@ -1,5 +1,6 @@
 import {CircleUserRound, ShoppingCart} from "lucide-react";
 import NavigationMenu from "./menu";
+import {NavLink} from "react-router";
 
 
 export default function Nav() {
@@ -10,9 +11,9 @@ export default function Nav() {
                 <div className="flex gap-4 items-center">
                     <NavigationMenu isMobile={true}/>
                     <span className="font-anton text-2xl md:text-3xl">
-                        <a href="/">
+                        <NavLink to="/">
                             Glamour
-                        </a>
+                        </NavLink>
                     </span>
 
                     <NavigationMenu isMobile={false}/>
@@ -21,9 +22,9 @@ export default function Nav() {
                     <button>
                         <ShoppingCart/>
                     </button>
-                    <a href="/login">
+                    <NavLink to="/login">
                         <CircleUserRound/>
-                    </a>
+                    </NavLink>
                 </div>
             </div>
         </div>
